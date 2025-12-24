@@ -4,10 +4,110 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Size Chart</title>
+	 <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid black;
+            margin: auto;
+        }
+
+        thead {
+            background-color: #E14E5D;
+			color: white;
+			border: 2px solid black;
+        }
+
+        td {
+            
+            text-align: right;
+			border: 2px solid black;
+        }
+		th {
+			 text-align: left;
+			border: 2px solid black;
+			font-weight: bold;
+		 }
+
+		 .waist
+		 {
+			 background-color: #ED8C96;
+			 color: white;
+		 }
+		 .chest
+		 {
+			 background-color: #F1F0E1;
+		 }
+		 .sleeve
+		 {
+			 background-color: #E3DFCE;
+		 }
+
+        caption {
+            caption-side: top;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<table>
+		<caption>Size Chart</caption>
+
+		<thead>
+			<tr>
+				<th>Part</th>
+				<th>XS</th>
+				<th>S</th>
+				<th>M</th>
+				<th>L</th>
+				<th>XL</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr class="waist">
+				<td style="text-align: left">Waist</td>
+				<td>25</td>
+				<td>28</td>
+				<td>30</td>
+				<td>31</td>
+				<td>32</td>
+			</tr>
+
+			<tr class="chest">
+				<td style="text-align: left">Chest</td>
+				<td>34</td>
+				<td>34</td>
+				<td>38</td>
+				<td>40</td>
+				<td>41</td>
+			</tr>
+
+			<tr  class="sleeve">
+				<td style="text-align: left">Sleeve</td>
+				<td>23</td>
+				<td>24</td>
+				<td>24</td>
+				<td>25</td>
+				<td>25</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
